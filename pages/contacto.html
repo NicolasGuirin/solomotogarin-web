@@ -36,6 +36,44 @@
         </div>
     </nav>
 
+    <main>
+        <form action="nicolasguirin@gmail.com" method="post" aria-labelledby="Formulario">
+        
+            <h2>Formulario</h2>
+            <h2></h2>
+            
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="email" aria-label="Nombre completo">
+    
+            <label for="email">Correo Electronico:</label>
+            <input type="email" id="email" name="email" aria-label="Correo electronico">
+    
+            <label for="mensaje">Mensaje:</label>
+            <textarea name="mensaje" id="mensaje" rows="4" aria-label="Mensaje"></textarea>
+    
+            <fieldset>
+            
+                <legend>Motivo de contacto</legend>
+
+                <label for="consulta">
+                    <input type="radio" id="consulta" name="motivo" value="consulta">
+                    Consulta
+                </label>
+
+                <label for="soporte">
+                    <input type="radio" id="soporte" name="motivo" value="soporte">
+                    Soporte
+                </label>
+
+            </fieldset>
+        <label for="suscripcion">
+            <input type="checkbox" id="suscripcion" name="suscripcion">
+            Recibir Novedades
+        </label>
+    </form>
+        <button type="submit">Enviar</button>
+    </main>
+
     <footer class="footer bg-dark text-light pt-5 pb-3">
 
         <div class="container">
