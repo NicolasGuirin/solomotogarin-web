@@ -1,0 +1,50 @@
+.hero {
+
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+    @include flex-center;
+    text-align: center;
+
+    .hero-content {
+
+        background: rgba(0,0,0,0.6);
+        padding: 30px;
+        border-radius: 10px;
+
+        h2 {
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+
+    }
+}
+
+.card {
+    @include card-hover;
+
+    img {
+        height: 250px;
+        object-fit: cover;
+    }
+}
+
+.footer {
+
+    font-size: 10px;
+
+    a {
+        color: #ccc;
+        text-decoration: none;
+
+        &:hover {
+            color: white;
+        }
+    }
+
+}
