@@ -47,16 +47,22 @@ nav a{
 
 /* HERO */
 
-.hero{
-height:70vh;
-background-image:url("img/moto-en-ruta2.webp");
-background-size:cover;
-background-position:center;
-display:flex;
-align-items:center;
-justify-content:center;
-text-align:center;
-color:white;
+.hero {
+    height: 80vh;
+    background-image: url("../img/moto-en-ruta2.webp");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    border-radius: 10px;
 }
 
 
