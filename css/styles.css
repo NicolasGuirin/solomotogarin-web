@@ -12,9 +12,9 @@ h2 {
 }
 
 #logo {
-    display: block;
-    margin: 0 auto; 
-    max-width: 120px;
+    width: 90px;
+    height: auto;
+    margin-left: 10px;
 }
 
 #links {
@@ -42,7 +42,7 @@ footer {
 }
 
 .hero {
-    height: 80vh;
+    height: 60vh;
     background-image: url("../img/moto-en-ruta2.webp");
     background-size: cover;
     background-position: center;
@@ -115,4 +115,30 @@ box-shadow:0 5px 15px rgba(0,0,0,0.2);
 .footer{
 background:#111;
 padding:40px 0;
+}
+
+.catalogo {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.grid-productos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+@media (max-width: 768px) {
+    .grid-productos {
+        grid-template-columns: 1fr;
+    }
+}
+
+main {
+    min-height: 80vh;
+}
+
+h2 {
+    margin-bottom: 30px;
 }
