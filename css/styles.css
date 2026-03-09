@@ -185,3 +185,99 @@ h2 {
         grid-template-columns:1fr;
     }
 }
+
+/* CONTENEDOR GENERAL */
+
+main{
+    max-width:1200px;
+    margin:auto;
+    padding:40px;
+}
+
+
+/* HEADER */
+
+header{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:20px 60px;
+}
+
+
+/* LOGO */
+
+#logo{
+    width:90px;
+    height:auto;
+}
+
+
+/* MENU */
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:30px;
+    padding:0;
+    margin:0;
+}
+
+nav a{
+    text-decoration:none;
+    font-weight:bold;
+}
+
+
+
+/* FORMULARIO */
+
+form{
+    max-width:500px;
+    margin:auto;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+
+/* INPUTS */
+
+input, textarea{
+    padding:10px;
+    font-size:16px;
+}
+
+
+/* TITULOS */
+
+h1,h2{
+    text-align:center;
+}
+
+/* GRID PRODUCTOS */
+
+.grid-productos{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+@media(max-width:768px){
+    .grid-productos{
+        grid-template-columns:1fr;
+    }
+}
+
+img{
+    max-width:100%;
+    height:auto;
+}
+
+footer{
+    background:#000;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
