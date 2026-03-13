@@ -223,3 +223,43 @@ scroll-behavior:smooth;
 .card:hover{
 transform: translateY(-5px);
 }
+
+.ventajas{
+margin-top:60px;
+}
+
+.grid-ventajas{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+margin-top:30px;
+}
+
+.ventaja{
+background:white;
+padding:25px;
+border-radius:10px;
+text-align:center;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.btn-primary{
+background:#c40000;
+border:none;
+}
+
+.btn-primary:hover{
+background:#a30000;
+}
+
+h2{
+color:#222;
+}
+
+footer{
+background:#111;
+}
+
+body{
+font-family:'Poppins', sans-serif;
+}
