@@ -220,10 +220,6 @@ html{
 scroll-behavior:smooth;
 }
 
-.card:hover{
-transform: translateY(-5px);
-}
-
 .ventajas{
 margin-top:60px;
 }
@@ -262,4 +258,28 @@ background:#111;
 
 body{
 font-family:'Poppins', sans-serif;
+}
+
+.contenedor{
+max-width:1200px;
+margin:auto;
+padding:40px;
+}
+
+.grid-3{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:30px;
+text-align:center;
+}
+
+.boton{
+display:block;
+background:#25D366;
+color:white;
+padding:10px;
+border-radius:5px;
+text-decoration:none;
+margin-top:10px;
+text-align:center;
 }
