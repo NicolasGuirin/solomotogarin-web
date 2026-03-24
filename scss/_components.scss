@@ -403,3 +403,15 @@ text-decoration:none;
 margin-top:10px;
 text-align:center;
 }
+
+@media (max-width: 768px) {
+
+    .productos {
+        grid-template-columns: 1fr;
+    }
+
+    .grid-productos {
+        grid-template-columns: 1fr;
+    }
+
+}
