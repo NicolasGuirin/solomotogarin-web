@@ -22,20 +22,8 @@ font-family: $font-principal;
 background:#f5f5f5;
 }
 
-h2{
-text-align:center;
-}
-
 #logo{
 display:block;
 margin:0 auto;
 max-width:120px;
-}
-
-/* RESPONSIVE */
-@media (max-width:768px){
-.hero{
-height:auto;
-padding:60px 20px;
-}
 }
