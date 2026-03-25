@@ -5,16 +5,6 @@
   }
 }
 
-.hero {
-  height: 80vh;
-  background-size: cover;
-  background-position: center;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 .hero .hero-content {
   background: rgba(0, 0, 0, 0.6);
   padding: 30px;
@@ -295,13 +285,6 @@ html {
   margin-top: 60px;
 }
 
-.grid-ventajas {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 30px;
-  margin-top: 30px;
-}
-
 .ventaja {
   background: white;
   padding: 25px;
@@ -321,10 +304,6 @@ html {
 
 h2 {
   color: #222;
-}
-
-footer {
-  background: #111;
 }
 
 body {
@@ -353,11 +332,6 @@ body {
   text-decoration: none;
   margin-top: 10px;
   text-align: center;
-}
-
-body {
-  font-family: "Arial", sans-serif;
-  background: #f5f5f5;
 }
 
 h2 {
