@@ -72,15 +72,6 @@
   margin-top: 40px;
 }
 
-/* FORMULARIO */
-form {
-  max-width: 500px;
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-}
-
 /* FOOTER */
 footer {
   background: #111;
@@ -167,13 +158,6 @@ main {
 }
 
 /* PRODUCTOS INICIO */
-
-.producto {
-  background: white;
-  padding: 20px;
-  border-radius: 10px;
-  text-align: center;
-}
 
 .producto img {
   width: 100%;
