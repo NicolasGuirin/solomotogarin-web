@@ -167,11 +167,16 @@ main{
 
 /* PRODUCTOS INICIO */
 
-.producto{
-    background:white;
-    padding:20px;
-    border-radius:10px;
-    text-align:center;
+.producto {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
 
 .producto img{
@@ -202,9 +207,8 @@ border-radius:5px;
     gap:30px;
 }
 
-.grid-productos article{
-max-width:300px;
-margin:auto;
+.grid-productos article {
+  display: flex;
 }
 
 .catalogo img{
