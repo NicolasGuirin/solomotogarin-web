@@ -42,10 +42,6 @@ footer a {
   text-decoration: none;
 }
 
-footer p {
-  color: #ccc;
-}
-
 .footer a:hover {
   color: white;
   text-decoration: underline;
