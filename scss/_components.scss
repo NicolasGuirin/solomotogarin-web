@@ -114,12 +114,6 @@ header{
     text-align: center;
 }
 
-#logo{
-width:70px;
-height:auto;
-}
-
-
 /* MENU */
 
 nav ul{
@@ -198,13 +192,6 @@ background:#0d6efd;
 color:white;
 text-decoration:none;
 border-radius:5px;
-}
-/* CATALOGO */
-
-.catalogo{
-    display:grid;
-    grid-template-columns:repeat(3,1fr);
-    gap:30px;
 }
 
 .grid-productos article {
