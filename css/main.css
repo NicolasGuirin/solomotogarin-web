@@ -36,17 +36,19 @@
 .footer {
   font-size: 10px;
 }
-.footer a {
-  color: #ccc;
+
+footer a {
+  color: #0d6efd;
   text-decoration: none;
 }
-.footer a:hover {
-  color: white;
+
+footer p {
+  color: #ccc;
 }
 
-footer .grid-3 {
-  align-items: start;
-  text-align: left;
+.footer a:hover {
+  color: white;
+  text-decoration: underline;
 }
 
 footer h5 {
@@ -100,8 +102,8 @@ footer {
 }
 
 footer .grid-3 {
-    align-items: start;
-    text-align: left;
+  align-items: center;
+  text-align: center;
 }
 
 /* VENTAJAS */
