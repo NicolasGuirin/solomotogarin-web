@@ -367,3 +367,35 @@ section {
 .card:hover {
   transform: scale(1.03);
 }
+
+.producto-detalle {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.producto-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.producto-info h1 {
+  margin-bottom: 10px;
+}
+
+.precio {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.producto-info p {
+  margin-bottom: 20px;
+}
+
+@media(max-width:768px){
+  .producto-detalle{
+    grid-template-columns:1fr;
+  }
+}
