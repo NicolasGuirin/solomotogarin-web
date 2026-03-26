@@ -351,3 +351,19 @@ h2 {
   margin: 0 auto;
   max-width: 120px;
 }
+
+h2 {
+  margin-bottom: 30px;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+.boton {
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
