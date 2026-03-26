@@ -70,6 +70,13 @@ footer {
   padding: 40px 20px;
 }
 
+footer,
+footer p,
+footer h5,
+footer a {
+  color: #0d6efd !important;
+}
+
 /* PRODUCTOS */
 
 .productos {
@@ -100,6 +107,14 @@ footer {
 footer .grid-3 {
   align-items: center;
   text-align: center;
+}
+
+footer .grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  text-align: center;
+  align-items: start;
 }
 
 /* VENTAJAS */
