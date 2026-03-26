@@ -44,6 +44,34 @@
   color: white;
 }
 
+footer .grid-3 {
+  align-items: start;
+  text-align: left;
+}
+
+footer h5 {
+  margin-bottom: 10px;
+}
+
+footer p {
+  margin-bottom: 5px;
+}
+
+footer a {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+footer a:hover {
+  color: white;
+}
+
+footer {
+  padding: 40px 20px;
+}
+
 /* PRODUCTOS */
 
 .productos {
@@ -291,7 +319,6 @@ h2 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 30px;
-  text-align: center;
 }
 
 .boton {
