@@ -114,10 +114,6 @@ footer .grid-3 {
   align-items: start;
 }
 
-footer {
-  color: white;
-}
-
 /* VENTAJAS */
 .grid-ventajas {
   display: grid;
@@ -458,4 +454,12 @@ h2 {
   .producto-detalle{
     grid-template-columns:1fr;
   }
+}
+
+.boton {
+  transition: 0.3s;
+}
+
+.boton:hover {
+  transform: scale(1.05);
 }
